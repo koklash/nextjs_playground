@@ -4,11 +4,6 @@ export default function App() {
 
   return (
     <div>
-      <head>
-        <title>8smile</title>
-        <meta name='description' content='index page'/>
-      </head>
-      <body>
       <div className='flex flex-col items-center justify-center w-full h-screen'>
         <h1 className="text-3xl font-bold ">
           Hello world!
@@ -22,7 +17,6 @@ export default function App() {
           
         </ul>
       </div>
-      </body> 
     </div>
   );
 }

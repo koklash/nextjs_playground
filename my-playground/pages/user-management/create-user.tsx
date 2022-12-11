@@ -1,5 +1,6 @@
 import { useForm, SubmitHandler } from "react-hook-form";
-import UserForm from "../../components/userCreateForm";
+import MediumCard from "../../components/uiElements/card/MediumCard";
+import UserForm from "../../components/uiElements/form/userCreateForm";
 
 enum GenderEnum {
   female = "female",
@@ -21,7 +22,9 @@ export default function App() {
 
   return (
     <div>
-      <UserForm/>
+      <MediumCard>
+        <UserForm/>
+      </MediumCard>
     </div>
   );
 }
