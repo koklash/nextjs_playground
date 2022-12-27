@@ -14,7 +14,6 @@ export default function App() {
               create User
             </Link>
           </li>
-          
         </ul>
       </div>
     </div>
