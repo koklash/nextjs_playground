@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+
 export default function App() {
 
   return (
@@ -11,7 +12,17 @@ export default function App() {
         <ul>
           <li>
             <Link className='underline' href='/user-management/create-user'>
-              create User
+              create user
+            </Link>
+          </li>
+          <li>
+            <Link className='underline' href='/cloudflare/video'>
+                video
+            </Link>
+          </li>
+          <li>
+            <Link className='underline' href='/dashboard'>
+                dashboard
             </Link>
           </li>
         </ul>
